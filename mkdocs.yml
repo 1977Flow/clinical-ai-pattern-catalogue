@@ -1,0 +1,52 @@
+site_name: Clinical AI Pattern Catalogue
+site_description: 7 Design Patterns for Ontological Fidelity in Clinical AI
+site_url: https://1977flow.github.io/clinical-ai-pattern-catalogue
+repo_url: https://github.com/1977Flow/clinical-ai-pattern-catalogue
+repo_name: 1977Flow/clinical-ai-pattern-catalogue
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: amber
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+nav:
+  - Home: index.md
+  - Patterns:
+    - Overview: patterns/index.md
+    - 1. Coding-Fidelity Annotation: patterns/coding-fidelity.md
+    - 2. Signal Preservation: patterns/signal-preservation.md
+    - 3. Semantic Drift Detection: patterns/semantic-drift.md
+    - 4. Dual Representation: patterns/dual-representation.md
+    - 5. Feedback Loop Monitoring: patterns/feedback-loop.md
+    - 6. Terminology Governance: patterns/terminology-governance.md
+    - 7. Regulatory Modularity: patterns/regulatory-modularity.md
+  - Scorecard: scorecard.md
+  - Research: research.md
+  - Roadmap: roadmap.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.odix8.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/1977Flow
