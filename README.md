@@ -25,6 +25,8 @@ Full documentation: [1977flow.github.io/clinical-ai-pattern-catalogue](https://1
 
 ## License
 
-Content: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — attribution required, commercial use permitted.
 
-Citation: Stummer, F. (2026). Clinical AI Pattern Catalogue. oDIX8 Systems for Innovation.
+See [LICENSE](LICENSE) for the full license text.
+
+Citation: Stummer, F. O. (2026). Clinical AI Pattern Catalogue. oDIX8 Systems for Innovation. https://github.com/1977Flow/clinical-ai-pattern-catalogue
